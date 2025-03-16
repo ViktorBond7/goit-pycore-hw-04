@@ -23,7 +23,7 @@ if __name__ == "__main__":
         print_directory_tree(Path(sys.argv[-1]))
          
 
-print_directory_tree('task_3')
+# print_directory_tree('task_3')
 
 
 

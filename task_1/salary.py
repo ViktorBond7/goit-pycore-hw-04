@@ -19,7 +19,7 @@ def total_salary(path: str)-> tuple[float, float]:
         
     except Exception as e:
         print(f"Сталася помилка: {e}")
-    if count >0: 
+    if count > 0: 
         average = round(total / count, 2)    
   
     return (total, average)
