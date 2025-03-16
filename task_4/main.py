@@ -34,7 +34,6 @@ def show_all(contacts: dict[str, str]) -> str:
         result = "\n".join(f"{name}: {phone}" for name, phone in contacts.items())
         return result
 
-
 def main():
     contacts = {}
     print("Welcome to the assistant bot!")
